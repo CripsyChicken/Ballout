@@ -10,7 +10,7 @@ let gameState = 'LOADING'; // Initial state is loading the image
 
 // --- NEW IMAGE AND BUTTON SETUP ---
 let titleScreenImage = new Image();
-titleScreenImage.src = 'your_image.png'; // IMPORTANT: Replace 'your_image.png' with the actual path to your image file.
+titleScreenImage.src = 'title_screen.png'; // IMPORTANT: Replace 'your_image.png' with the actual path to your image file.
 let imageLoaded = false;
 
 titleScreenImage.onload = () => {
@@ -230,3 +230,4 @@ window.addEventListener('resize', () => {
 
 // Initial call to start the loop
 gameLoop();
+
